@@ -9,6 +9,8 @@ public:
 
 	virtual void Update(const SceneContext& sceneContext) override;
 
+	virtual void SetForward(const DirectX::XMFLOAT3& newForward) override;
+
 private:
 	POINT m_PrevCursorPosition;
 	float m_TotalYaw, m_TotalPitch;

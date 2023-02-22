@@ -72,3 +72,11 @@ void FreeCamera::Update(const SceneContext& sceneContext)
 	BuildView();
 }
 
+void FreeCamera::SetForward(const DirectX::XMFLOAT3& newForward)
+{
+	m_Forward = newForward;
+
+	m_TotalPitch = -newForward.y;
+	m_TotalYaw = newForward.x;
+}
+

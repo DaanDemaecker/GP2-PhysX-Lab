@@ -18,6 +18,9 @@ protected:
 	void OnSceneDeactivated() override;
 
 private:
+	GameObject* m_pBox;
+	GameObject* m_pTorus;
+	GameObject* m_pCylinder;
 
 };
 
