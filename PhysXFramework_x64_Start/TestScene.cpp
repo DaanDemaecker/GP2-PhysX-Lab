@@ -89,10 +89,8 @@ void TestScene::Update()
 	{
 		translation.y -= movementSpeed;
 	}
-
-
-	XMStoreFloat3(&translation, XMVectorAdd(XMLoadFloat3(&translation), XMLoadFloat3(&m_pBox->GetPosition())));
-	m_pBox->Translate(translation.x, translation.y, translation.z);
+	
+	m_pBox->RelativeTranslate(translation);
 
 	m_SceneContext.GetInput()->SetVibration(10.f, 10.f);
 }

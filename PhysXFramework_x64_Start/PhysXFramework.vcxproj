@@ -108,6 +108,7 @@
     <ClInclude Include="PhysxErrorCallback.h" />
     <ClInclude Include="PhysxHelpers.h" />
     <ClInclude Include="PhysxManager.h" />
+    <ClInclude Include="PhysXTestScene.h" />
     <ClInclude Include="PxConvexMeshLoader.h" />
     <ClInclude Include="PxTriangleMeshLoader.h" />
     <ClInclude Include="SceneContext.h" />
@@ -122,6 +123,7 @@
     <ClInclude Include="TorusPosColorNorm.h" />
     <ClInclude Include="TrackingCamera.h" />
     <ClInclude Include="VertexStructs.h" />
+    <ClInclude Include="BouncingBallScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BaseCamera.cpp" />
@@ -149,6 +151,7 @@
     <ClCompile Include="MeshObjectTex.cpp" />
     <ClCompile Include="PhysxErrorCallback.cpp" />
     <ClCompile Include="PhysxManager.cpp" />
+    <ClCompile Include="PhysXTestScene.cpp" />
     <ClCompile Include="PxConvexMeshLoader.cpp" />
     <ClCompile Include="PxTriangleMeshLoader.cpp" />
     <ClCompile Include="SceneContext.cpp" />
@@ -163,6 +166,7 @@
     <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="TorusPosColorNorm.cpp" />
     <ClCompile Include="TrackingCamera.cpp" />
+    <ClCompile Include="BouncingBallScene.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

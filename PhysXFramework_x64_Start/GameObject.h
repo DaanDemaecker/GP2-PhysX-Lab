@@ -31,6 +31,7 @@ public:
 	bool RemoveChild(GameObject* pObject, bool deleteObject = false);
 
 	void Translate(float x, float y, float z);
+	void RelativeTranslate(XMFLOAT3 translation);
 	void Rotate(float x, float y, float z);
 	void RotateDegrees(float x, float y, float z);
 	void Scale(float x, float y, float z);

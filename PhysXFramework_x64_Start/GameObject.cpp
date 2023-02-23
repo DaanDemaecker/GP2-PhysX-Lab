@@ -153,6 +153,12 @@ void GameObject::Translate(float x, float y, float z)
 	m_Position.z = z;
 }
 
+void GameObject::RelativeTranslate(XMFLOAT3 translation)
+{
+	XMStoreFloat3(&translation, XMVectorAdd(XMLoadFloat3(&translation), XMLoadFloat3(&GetPosition())));
+	Translate(translation.x, translation.y, translation.z);
+}
+
 void GameObject::Rotate(float x, float y, float z)
 {
 	if (m_RigidActorAdded)
