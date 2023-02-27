@@ -181,6 +181,18 @@
     <ClInclude Include="BouncingBallScene.h">
       <Filter>GameFiles\Scenes\W01_PhysX</Filter>
     </ClInclude>
+    <ClInclude Include="FrictionTestScene.h">
+      <Filter>GameFiles\Scenes\W01_PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMeshTestScene.h">
+      <Filter>GameFiles\Scenes\W02_PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerTestScene.h">
+      <Filter>GameFiles\Scenes\W02_PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioTestScene.h">
+      <Filter>GameFiles\Scenes\W02_PhysX</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -296,6 +308,18 @@
     </ClCompile>
     <ClCompile Include="BouncingBallScene.cpp">
       <Filter>GameFiles\Scenes\W01_PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="FrictionTestScene.cpp">
+      <Filter>GameFiles\Scenes\W01_PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsMeshTestScene.cpp">
+      <Filter>GameFiles\Scenes\W02_PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerTestScene.cpp">
+      <Filter>GameFiles\Scenes\W02_PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioTestScene.cpp">
+      <Filter>GameFiles\Scenes\W02_PhysX</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

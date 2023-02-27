@@ -16,6 +16,8 @@ public:
 	virtual ~GameScene();
 	GameScene(const GameScene& t) = delete;
 	GameScene& operator=(const GameScene& t) = delete;
+	GameScene(GameScene&& t) = delete;
+	GameScene& operator=(const GameScene&& t) = delete;
 
 	//GET
 	const SceneContext& GetSceneContext() const { return m_SceneContext; }
