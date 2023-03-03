@@ -3,7 +3,7 @@
 class TorqueTestScene final : public GameScene
 {
 public:
-	TorqueTestScene() :GameScene(L"TestScene") {}
+	TorqueTestScene() :GameScene(L"TorqueTestScene") {}
 protected:
 	void Initialize() override;
 	void Update() override;

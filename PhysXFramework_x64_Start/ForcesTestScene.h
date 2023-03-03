@@ -3,7 +3,7 @@
 class ForcesTestScene final : public GameScene
 {
 public:
-	ForcesTestScene() :GameScene(L"TestScene") {}
+	ForcesTestScene() :GameScene(L"ForcesTestScene") {}
 protected:
 	void Initialize() override;
 	void Update() override;

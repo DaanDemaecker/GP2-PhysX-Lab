@@ -1,17 +1,25 @@
-[2023-3-3 - 9:53:35:572][DEBUG]   Adapter 0 : Intel(R) UHD Graphics
-[2023-3-3 - 9:53:35:574][DEBUG]   Adapter 1 : NVIDIA GeForce RTX 3070 Laptop GPU
-[2023-3-3 - 9:53:35:575][DEBUG]   Adapter 2 : Microsoft Basic Render Driver
-[2023-3-3 - 9:53:35:576][DEBUG]   3 Adapter(s) found
-[2023-3-3 - 9:53:35:577][DEBUG]   InitalizeAdapterAndOutput ok.
-[2023-3-3 - 9:53:35:578][DEBUG]   Window Class Created
-[2023-3-3 - 9:53:35:580][DEBUG]   Desktop resolution: 1536 x 864
-[2023-3-3 - 9:53:35:688][DEBUG]   Window Opened
-[2023-3-3 - 9:53:36:70][DEBUG]   Direct3D Initialized
-[2023-3-3 - 9:53:36:474][DEBUG]   Managers Initialized!
-[2023-3-3 - 9:53:36:476][INFO]    Press 'Page Up' or 'Page Down' to cycle between the different scenes
-[2023-3-3 - 9:53:36:478][INFO]    Press 'I' to toggle the debug renderer.
-[2023-3-3 - 9:53:36:479][INFO]    Press 'M' to do physics stepping.
-[2023-3-3 - 9:53:36:480][INFO]    Press 'L' to stop doing physics stepping.
-[2023-3-3 - 9:53:36:534][DEBUG]   Scenes Initialized!
-[2023-3-3 - 9:53:36:614][DEBUG]   DebugRenderer::Draw() > Increasing Vertexbuffer Size!
-[2023-3-3 - 9:54:45:99][DEBUG]   Core Initialization Finished
+[2023-3-3 - 11:1:39:919][DEBUG]   Adapter 0 : Intel(R) UHD Graphics
+[2023-3-3 - 11:1:39:921][DEBUG]   Adapter 1 : NVIDIA GeForce RTX 3070 Laptop GPU
+[2023-3-3 - 11:1:39:922][DEBUG]   Adapter 2 : Microsoft Basic Render Driver
+[2023-3-3 - 11:1:39:923][DEBUG]   3 Adapter(s) found
+[2023-3-3 - 11:1:39:924][DEBUG]   InitalizeAdapterAndOutput ok.
+[2023-3-3 - 11:1:39:925][DEBUG]   Window Class Created
+[2023-3-3 - 11:1:39:926][DEBUG]   Desktop resolution: 1536 x 864
+[2023-3-3 - 11:1:40:28][DEBUG]   Window Opened
+[2023-3-3 - 11:1:40:416][DEBUG]   Direct3D Initialized
+[2023-3-3 - 11:1:40:817][DEBUG]   Managers Initialized!
+[2023-3-3 - 11:1:40:820][INFO]    Press 'Page Up' or 'Page Down' to cycle between the different scenes
+[2023-3-3 - 11:1:40:821][INFO]    Press 'I' to toggle the debug renderer.
+[2023-3-3 - 11:1:40:822][INFO]    Press 'M' to do physics stepping.
+[2023-3-3 - 11:1:40:825][INFO]    Press 'L' to stop doing physics stepping.
+[2023-3-3 - 11:1:40:941][DEBUG]   Scenes Initialized!
+[2023-3-3 - 11:1:40:945][INFO]    Scene Activated > "TestScene"
+[2023-3-3 - 11:1:42:858][DEBUG]   DebugRenderer::Draw() > Increasing Vertexbuffer Size!
+[2023-3-3 - 11:1:47:535][DEBUG]   DebugRenderer::Draw() > Increasing Vertexbuffer Size!
+[2023-3-3 - 11:1:52:72][WARNING] GameObject::Translate(...) > Can't translate a STATIC RigidActor!
+[2023-3-3 - 11:1:52:73][WARNING] GameObject::Translate(...) > Can't translate a STATIC RigidActor!
+[2023-3-3 - 11:1:52:74][WARNING] GameObject::Translate(...) > Can't translate a STATIC RigidActor!
+[2023-3-3 - 11:1:52:76][WARNING] GameObject::Rotate(...) > Can't rotate a STATIC RigidActor!
+[2023-3-3 - 11:1:52:78][WARNING] GameObject::Rotate(...) > Can't rotate a STATIC RigidActor!
+[2023-3-3 - 11:1:52:79][WARNING] GameObject::Rotate(...) > Can't rotate a STATIC RigidActor!
+[2023-3-3 - 11:2:3:997][DEBUG]   Core Initialization Finished

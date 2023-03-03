@@ -15,6 +15,7 @@
 #include "FrictionTestScene.h"
 #include "ForcesTestScene.h"
 #include "TorqueTestScene.h"
+#include "W1_AssignmentScene.h"
 #endif
 
 #ifdef W02
@@ -29,12 +30,13 @@ namespace dae
 	{
 
 #ifdef W01
-		//pSceneManager->AddGameScene(new TestScene());
-		//pSceneManager->AddGameScene(new PhysXTestScene());
-		//pSceneManager->AddGameScene(new BouncingBallScene());
-		//pSceneManager->AddGameScene(new FrictionTestScene());
-		//pSceneManager->AddGameScene(new ForcesTestScene());
+		pSceneManager->AddGameScene(new TestScene());
+		pSceneManager->AddGameScene(new PhysXTestScene());
+		pSceneManager->AddGameScene(new BouncingBallScene());
+		pSceneManager->AddGameScene(new FrictionTestScene());
+		pSceneManager->AddGameScene(new ForcesTestScene());
 		pSceneManager->AddGameScene(new TorqueTestScene());
+		pSceneManager->AddGameScene(new W1_AssignmentScene());
 #endif
 
 #ifdef W02
