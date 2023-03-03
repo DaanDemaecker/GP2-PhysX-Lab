@@ -1,9 +1,9 @@
 #pragma once
 #include "GameScene.h"
-class ForcesTestScene final : public GameScene
+class TorqueTestScene final : public GameScene
 {
 public:
-	ForcesTestScene() :GameScene(L"TestScene") {}
+	TorqueTestScene() :GameScene(L"TestScene") {}
 protected:
 	void Initialize() override;
 	void Update() override;

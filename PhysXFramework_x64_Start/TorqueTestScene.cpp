@@ -1,9 +1,9 @@
 #include "stdafx.h"
-#include "ForcesTestScene.h"
+#include "TorqueTestScene.h"
 
 #include "CubePosColorNorm.h"
 
-void ForcesTestScene::Initialize()
+void TorqueTestScene::Initialize()
 {
 	EnablePhysxDebugRendering(true);
 
@@ -19,7 +19,7 @@ void ForcesTestScene::Initialize()
 	//cube
 	const XMFLOAT3 cubeDimensions{ 1.f, 1.f, 1.f };
 	PxBoxGeometry cubeGeometry = PxBoxGeometry{ cubeDimensions.x / 2.f, cubeDimensions.y / 2.f, cubeDimensions.z / 2.f };
-	
+
 	m_pCube = new CubePosColorNorm(cubeDimensions.x, cubeDimensions.y, cubeDimensions.z);
 	AddGameObject(m_pCube);
 
@@ -36,28 +36,28 @@ void ForcesTestScene::Initialize()
 	pInput->AddInputAction({ Reset, InputTriggerState::pressed , 'R' });
 }
 
-void ForcesTestScene::Update()
+void TorqueTestScene::Update()
 {
 	const auto pInput = m_SceneContext.GetInput();
 
-	if (pInput->IsActionTriggered(Up))
+	if (pInput->IsActionTriggered(Right))
 	{
-		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addForce({ 0.f, 0.f, 10.f }, PxForceMode::eACCELERATION);
-	}
-
-	if (pInput->IsActionTriggered(Down))
-	{
-		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addForce({ 0.f, 0.f, -10.f }, PxForceMode::eACCELERATION);
+		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addTorque({ 0.f, 0.f, -5.f }, PxForceMode::eACCELERATION);
 	}
 
 	if (pInput->IsActionTriggered(Left))
 	{
-		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addForce({ -10.f, 0.f, 0.f }, PxForceMode::eACCELERATION);
+		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addTorque({ 0.f, 0.f, 5.f }, PxForceMode::eACCELERATION);
 	}
 
-	if (pInput->IsActionTriggered(Right))
+	if (pInput->IsActionTriggered(Up))
 	{
-		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addForce({ 10.f, 0.f, 0.f }, PxForceMode::eACCELERATION);
+		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addTorque({ 5.f, 0.f, 0.f }, PxForceMode::eACCELERATION);
+	}
+
+	if (pInput->IsActionTriggered(Down))
+	{
+		m_pCube->GetRigidActor()->is<PxRigidDynamic>()->addTorque({ -5.f, 0.f, 0.f }, PxForceMode::eACCELERATION);
 	}
 
 	if (pInput->IsActionTriggered(Reset))
@@ -69,14 +69,14 @@ void ForcesTestScene::Update()
 
 }
 
-void ForcesTestScene::Draw() const
+void TorqueTestScene::Draw() const
 {
 }
 
-void ForcesTestScene::OnSceneActivated()
+void TorqueTestScene::OnSceneActivated()
 {
 }
 
-void ForcesTestScene::OnSceneDeactivated()
+void TorqueTestScene::OnSceneDeactivated()
 {
 }
