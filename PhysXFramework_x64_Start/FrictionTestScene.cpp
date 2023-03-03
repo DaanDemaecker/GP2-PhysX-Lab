@@ -84,6 +84,28 @@ void FrictionTestScene::Initialize()
 
 void FrictionTestScene::Update()
 {
+	if (m_SceneContext.GetInput()->IsKeyboardKey(InputTriggerState::pressed, 'R'))
+	{
+		//Move the platforms
+		m_pPlatform1->Translate(-10, 5, 0);
+		m_pPlatform2->Translate(0, 5, 0);
+		m_pPlatform3->Translate(10, 5, 0);
+
+		//Rotate the platforms
+		m_pPlatform1->Rotate(0, 0, -PxPiDivFour / 2);
+		m_pPlatform2->Rotate(0, 0, -PxPiDivFour / 2);
+		m_pPlatform3->Rotate(0, 0, -PxPiDivFour / 2);
+
+		//Move the cubes
+		m_pCube1->Translate(-10, 5, 0);
+		m_pCube2->Translate(0, 5, 0);
+		m_pCube3->Translate(10, 5, 0);
+
+		//Rotate the cubes
+		m_pCube1->Rotate(0, 0, 0);
+		m_pCube2->Rotate(0, 0, 0);
+		m_pCube3->Rotate(0, 0, 0);
+	}
 }
 
 void FrictionTestScene::Draw() const
