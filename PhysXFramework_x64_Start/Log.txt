@@ -1,30 +1,17 @@
-[2023-2-27 - 16:8:42:775][DEBUG]   Adapter 0 : Intel(R) UHD Graphics
-[2023-2-27 - 16:8:42:778][DEBUG]   Adapter 1 : NVIDIA GeForce RTX 3070 Laptop GPU
-[2023-2-27 - 16:8:42:780][DEBUG]   Adapter 2 : Microsoft Basic Render Driver
-[2023-2-27 - 16:8:42:782][DEBUG]   3 Adapter(s) found
-[2023-2-27 - 16:8:42:784][DEBUG]   InitalizeAdapterAndOutput ok.
-[2023-2-27 - 16:8:42:786][DEBUG]   Window Class Created
-[2023-2-27 - 16:8:42:789][DEBUG]   Desktop resolution: 1536 x 864
-[2023-2-27 - 16:8:42:989][DEBUG]   Window Opened
-[2023-2-27 - 16:8:43:813][DEBUG]   Direct3D Initialized
-[2023-2-27 - 16:8:44:479][DEBUG]   Managers Initialized!
-[2023-2-27 - 16:8:44:482][INFO]    Press 'Page Up' or 'Page Down' to cycle between the different scenes
-[2023-2-27 - 16:8:44:484][INFO]    Press 'I' to toggle the debug renderer.
-[2023-2-27 - 16:8:44:485][INFO]    Press 'M' to do physics stepping.
-[2023-2-27 - 16:8:44:489][INFO]    Press 'L' to stop doing physics stepping.
-[2023-2-27 - 16:8:44:588][DEBUG]   Scenes Initialized!
-[2023-2-27 - 16:8:44:766][DEBUG]   DebugRenderer::Draw() > Increasing Vertexbuffer Size!
-[2023-2-27 - 16:8:57:487][INFO]    Volume Changed >> 0.900000
-[2023-2-27 - 16:8:57:813][INFO]    Volume Changed >> 0.800000
-[2023-2-27 - 16:8:58:849][INFO]    Volume Changed >> 0.700000
-[2023-2-27 - 16:8:59:26][INFO]    Volume Changed >> 0.600000
-[2023-2-27 - 16:8:59:160][INFO]    Volume Changed >> 0.500000
-[2023-2-27 - 16:8:59:286][INFO]    Volume Changed >> 0.400000
-[2023-2-27 - 16:8:59:395][INFO]    Volume Changed >> 0.300000
-[2023-2-27 - 16:8:59:513][INFO]    Volume Changed >> 0.200000
-[2023-2-27 - 16:8:59:646][INFO]    Volume Changed >> 0.100000
-[2023-2-27 - 16:8:59:756][INFO]    Volume Changed >> 0.000000
-[2023-2-27 - 16:9:0:458][INFO]    Volume Changed >> 0.100000
-[2023-2-27 - 16:9:0:612][INFO]    Volume Changed >> 0.200000
-[2023-2-27 - 16:9:0:741][INFO]    Volume Changed >> 0.300000
-[2023-2-27 - 16:9:9:8][DEBUG]   Core Initialization Finished
+[2023-3-3 - 9:23:56:973][DEBUG]   Adapter 0 : Intel(R) UHD Graphics
+[2023-3-3 - 9:23:56:975][DEBUG]   Adapter 1 : NVIDIA GeForce RTX 3070 Laptop GPU
+[2023-3-3 - 9:23:56:976][DEBUG]   Adapter 2 : Microsoft Basic Render Driver
+[2023-3-3 - 9:23:56:977][DEBUG]   3 Adapter(s) found
+[2023-3-3 - 9:23:56:977][DEBUG]   InitalizeAdapterAndOutput ok.
+[2023-3-3 - 9:23:56:978][DEBUG]   Window Class Created
+[2023-3-3 - 9:23:56:980][DEBUG]   Desktop resolution: 1536 x 864
+[2023-3-3 - 9:23:57:85][DEBUG]   Window Opened
+[2023-3-3 - 9:23:57:463][DEBUG]   Direct3D Initialized
+[2023-3-3 - 9:23:57:837][DEBUG]   Managers Initialized!
+[2023-3-3 - 9:23:57:840][INFO]    Press 'Page Up' or 'Page Down' to cycle between the different scenes
+[2023-3-3 - 9:23:57:842][INFO]    Press 'I' to toggle the debug renderer.
+[2023-3-3 - 9:23:57:843][INFO]    Press 'M' to do physics stepping.
+[2023-3-3 - 9:23:57:846][INFO]    Press 'L' to stop doing physics stepping.
+[2023-3-3 - 9:23:57:900][DEBUG]   Scenes Initialized!
+[2023-3-3 - 9:23:57:983][DEBUG]   DebugRenderer::Draw() > Increasing Vertexbuffer Size!
+[2023-3-3 - 9:24:5:427][DEBUG]   Core Initialization Finished
