@@ -17,6 +17,26 @@ protected:
 	void OnSceneActivated() override;
 	void OnSceneDeactivated() override;
 
+	void onTrigger(PxTriggerPair* pairs, PxU32 count) override;
+
 private:
-	GameObject* m_pLevel;
+	GameObject* m_pLevel{};
+
+	GameObject* m_pBlueTrigger{};
+	GameObject* m_pBlueBox{};
+
+	GameObject* m_pBlueHatch{};
+	GameObject* m_pLeftSphere{};
+
+	GameObject* m_pRedTrigger{};
+	GameObject* m_pRedBox{};
+
+	GameObject* m_pRedHatch{};
+	GameObject* m_pRightSphere{};
+
+	GameObject* m_pSphere{ nullptr };
+
+	FMOD::Channel* m_pChannel2D{ nullptr };
+	FMOD::Sound* m_pBellSound{ nullptr };
+
 };

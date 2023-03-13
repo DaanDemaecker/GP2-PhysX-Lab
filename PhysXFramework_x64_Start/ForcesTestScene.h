@@ -12,7 +12,7 @@ protected:
 	void OnSceneDeactivated() override;
 
 private:
-	GameObject* m_pCube;
+	GameObject* m_pCube{};
 
 	enum InputIds
 	{

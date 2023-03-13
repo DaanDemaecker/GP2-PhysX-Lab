@@ -1,4 +1,7 @@
 #pragma once
+
+class TorusPrefab;
+
 class MinionScene final : public GameScene
 {
 public:
@@ -17,9 +20,9 @@ protected:
 	void OnGUI() override;
 
 private:
-	GameObject* m_pObject{};
-	RigidBodyComponent* m_pRigidBody{};
-	FreeCamera* m_pFixedCamera{};
+	TorusPrefab* m_pTorusBig{ nullptr };
+	TorusPrefab* m_pTorusMid{ nullptr };
+	TorusPrefab* m_pTorusSmall{ nullptr };
 };
 
 
